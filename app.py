@@ -83,13 +83,6 @@ def exp1():
 def exp2():
 	return render_template('explanation2.html')
 
-@app.route('/goals1')
-def goals1():
-	return render_template('goals1.html')
-
-@app.route('/goals2')
-def goals2():
-	return render_template('goals2.html')
 
 @app.route('/pro1')
 def pro1():
